@@ -1,0 +1,5 @@
+(ocamllex (modules lexer))
+(menhir (modules menhir_parser))
+(library
+ (name entry)
+ (libraries linenoise nice_parser))
